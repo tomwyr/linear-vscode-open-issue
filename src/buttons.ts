@@ -38,9 +38,10 @@ function syncButtonOnIssueChange() {
 
   repoChangeDisposer = onRepoChange(async () => {
     const branchName = getCurrentBranchName();
+    // If branch didn't change, no need to call Linear for the issue.
     if (branchName == lastBranchName) return;
-    lastBranchName = branchName;
 
+    lastBranchName = branchName;
     hideButton();
 
     if (!branchName) return;
