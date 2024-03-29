@@ -8,6 +8,8 @@ Once installed, just go to the command menu with:
 
 And type "Open issue". You'll see a command called "Linear: Open issue" appear.
 
+Additionally, if your current Git branch corresponds to a related issue, a status bar button will appear, allowing you to open the issue in Linear.
+
 This extension uses our VS Code Linear API authentication provider that is exposed by the [linear-connect](https://marketplace.visualstudio.com/items?itemName=Linear.linear-connect) extension. Feel free to use that in your own extensions!
 
 ---

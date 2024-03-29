@@ -18,7 +18,7 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:linear-open-issue.openIssue"
+    "onStartupFinished"
   ],
   "capabilities": {
     "virtualWorkspaces": true,
@@ -40,6 +40,15 @@
         "openInDesktopApp": {
           "type": "boolean",
           "description": "Open Linear issue in the desktop app"
+        }
+      }
+    },
+    "icons": {
+      "linear-dark-logo": {
+        "description": "Linear Dark Logo",
+        "default": {
+          "fontPath": "assets/icons.woff",
+          "fontCharacter": "\\0041"
         }
       }
     }
